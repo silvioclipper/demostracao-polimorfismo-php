@@ -1,0 +1,17 @@
+{
+    "name": "silvio.azevedo/polimorfismo",
+    "description": "Demonstração do polimorfismo no php.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Silvio Rodrigues Azevedo",
+            "email": "silvioclipper@gmail.com"
+        }
+    ],
+    "require": {}
+}
