@@ -12,3 +12,14 @@ php -S localhost:9000 -t /public
   a) git remote add add upstream https://github.com/silvioclipper/demostracao-polimorfismo-php(_**somente uma vez**_); 
   b) git pull upstream --rebase;
 - 
+
+
+phpcs --config-set default_standard PSR12
+
+cd /caminho/para/o/repositorio # Navegue até o diretório do seu repositório Git
+mkdir -p .git/hooks # Crie a pasta hooks se ainda não existir
+echo "#!/bin/sh\n\nphpcs --standard=PSR12" > .git/hooks/pre-commit # Crie o gancho de pré-commit
+chmod +x .git/hooks/pre-commit # Dê permissão de execução ao gancho de pré-commit
+
+
+ubstituir "/caminho/para/o/repositorio" pelo caminho real para o diretório do seu repositório Git.
