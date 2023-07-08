@@ -6,5 +6,5 @@ namespace app\interface;
 
 interface IntefaceShop
 {
-
+    public function teste();
 }

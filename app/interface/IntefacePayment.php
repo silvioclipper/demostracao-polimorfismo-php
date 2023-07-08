@@ -6,6 +6,5 @@ namespace app\interface;
 
 interface IntefacePayment
 {
-
-
+    public function testar();
 }

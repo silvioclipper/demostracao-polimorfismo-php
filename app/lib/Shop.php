@@ -11,9 +11,8 @@ class Shop
         echo "colocando no carrinho de compras. \n";
     }
 
-     public function addCarShop(string $array) : string
+    public function addCarShop(string $array): string
     {
         return $array;
     }
 }
-

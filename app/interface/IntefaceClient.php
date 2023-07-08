@@ -6,5 +6,5 @@ namespace app\interface;
 
 interface IntefaceClient
 {
-
+    public function testar();
 }
